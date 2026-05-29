@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="left-side">
+      <div class="logo-container">
+        <img src="images/odin-logo.png" alt="Odin logo">
+        <h1>ODIN</h1>
+      </div>
+
+      <p class="photo-credit">Photo by Halie West on Unsplash</p>
+    </div>
+
+    <div class="right-side">
+      <div class="intro-text">
+        <p>
+          This is not a real online service! You know you need something
+          like this in your life to help you realize your deepest dreams.
+          Sign up now to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+
+      <form>
+        <div class="form-section">
+          <h2>Let's do this!</h2>
+
+          <div class="form-row">
+            <div class="input-box">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" value="Thor">
+            </div>
+
+            <div class="input-box">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" value="Odinson">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-box">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email">
+            </div>
+
+            <div class="input-box">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-box">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" required>
+            </div>
+
+            <div class="input-box">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-section">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
