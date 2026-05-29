@@ -11,7 +11,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
 }
 
 .container {
@@ -67,14 +66,15 @@ body {
 }
 
 .intro-text {
-  padding: 0 50px 40px;
-  font-size: 22px;
+  padding: 90px 50px 50px;
+  max-width: 760px;
+  font-size: 24px;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 1.25;
 }
 
 .intro-text p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .form-section {
@@ -110,7 +110,7 @@ body {
   width: 260px;
   height: 35px;
   padding: 6px 10px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #E5E7EB;
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
@@ -118,8 +118,13 @@ body {
 
 .input-box input:focus {
   outline: none;
-  border: 1px solid #2563eb;
-  box-shadow: 0 0 5px rgba(37, 99, 235, 0.4);
+  border: 1px solid blue;
+  box-shadow: 2px 2px 5px lightgray;
+}
+
+#password:user-invalid,
+#confirm-password:user-invalid {
+  border: 1px solid red;
 }
 
 .button-section {
@@ -136,10 +141,6 @@ button {
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 20px;
-}
-
-button:hover {
-  opacity: 0.9;
 }
 
 .button-section p {
